@@ -19,8 +19,8 @@ public class Conta {
         saldo += valor;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void retirar(double valor) {
+        saldo -= valor;
     }
 
     public int getNumero() {
@@ -31,3 +31,4 @@ public class Conta {
         return cliente;
     }
 }
+

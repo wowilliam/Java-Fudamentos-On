@@ -1,7 +1,9 @@
 package com.java;
 
 public class TesteConta {
+	
     public static void main(String[] args) {
+    	
         Cliente clienteCorrente = new Cliente("Leandro", 45);
         Cliente clientePoupanca = new Cliente("JOSE", 26);
         Cliente clienteInvestimento = new Cliente("Maria", 37);
