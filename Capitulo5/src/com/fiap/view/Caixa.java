@@ -45,5 +45,10 @@ public class Caixa {
 	}
 	
 	
-
+    //  Produto[][] localizacaoProduto = new Produto [10][3];
+      
+    //  localizacaoProduto[0][1] = prod1;
+    //  localizacaoProduto[0][1] = prod2;
+      
+    //  System.out.println( localizacaoProduto[0][1].getNome());
 
