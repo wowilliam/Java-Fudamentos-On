@@ -1,5 +1,7 @@
 package com.fiap.view;
 
+import com.fiap.exception.DivisaoPorZeroException;
+
 public class TestException {
 	
 	public static void main(String[] args) throws DivisaoPorZeroException {

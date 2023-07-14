@@ -1,4 +1,4 @@
-package com.fiap.view;
+package com.fiap.exception;
 
 public class DivisaoPorZeroException extends Exception {
     public DivisaoPorZeroException(String message) {
