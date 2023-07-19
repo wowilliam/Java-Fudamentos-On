@@ -1,5 +1,7 @@
 package polimorfismo;
 
+import br.com.fiap.exception.SaldoInsuficienteException;
+
 public class ContaCorrente {
 	
 	protected double saldo;

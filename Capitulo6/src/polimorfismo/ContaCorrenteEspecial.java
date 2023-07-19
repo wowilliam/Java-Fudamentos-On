@@ -1,14 +1,14 @@
 package polimorfismo;
 
-public class ContaCorrenteEspecial extends ContaCorrente{
-	
-	private double limite;
-	
-	public void sacar(double valor) throws SaldoInsuficinteException {
-		if (valor > saldo + limite) {
-			throw new SaldoInsuficienteExecption();
-		}
-		saldo = saldo - valor;
-	}
+import br.com.fiap.exception.SaldoInsuficienteException;
 
+public class ContaCorrenteEspecial extends ContaCorrente {
+    private double limite;
+
+    public void sacar(double valor) throws SaldoInsuficienteException {
+        if (valor > saldo + limite) {
+            throw new SaldoInsuficienteException();
+        }
+        saldo = saldo - valor;
+    }
 }
